@@ -18,4 +18,23 @@ var articulosFiltrados = articulos.filter(function(articulos){
 var articulosMapeados = articulos.map(function(articulos){
     return articulos.name
 })
-console.log(articulosMapeados)
+//console.log(articulosMapeados)
+
+//Metodo Find
+var articulosFind = articulos.find(function(articulo){
+    return articulo.name == "Teclado"
+})
+//console.log(articulosFind)
+
+//Metodo ForEach
+articulos.forEach(function(articulo){
+   // console.log(articulo.name)
+})
+
+//Metodo Some
+articulosEconomicos = articulos.some(function(articulo){
+    return articulo.costo <= 320
+})
+//console.log(articulosEconomicos)
+
+console.log(1 = "1")
